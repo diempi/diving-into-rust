@@ -43,4 +43,14 @@ fn main() {
 
     println!("removing from the Vector v is a vector and its new value is {:?}",v);
 
+    // Iterators
+
+    let vec = vec![1,2,3,4,5];
+    let mut iter = vec.iter();
+
+    println!("the first value of the iterator is {}",iter.next().unwrap());
+    println!("the first value of the iterator is {}",iter.next().unwrap());
+    println!("the first value of the iterator is {}",iter.next().unwrap());
+
+
 }
