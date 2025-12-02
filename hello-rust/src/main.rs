@@ -12,4 +12,10 @@ fn main() {
     let z: i32 = 10;
     println!("Z is a integer and its value is {z}");
 
+// Floats
+
+    let f = 3.14;
+    println!("fl is a float and its value is {f}");
+
+
 }
