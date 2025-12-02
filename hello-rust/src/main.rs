@@ -16,6 +16,12 @@ fn main() {
 
     let f = 3.14;
     println!("fl is a float and its value is {f}");
+// Slices
+    let s = String::from("Hello world");
+    let hello = &s[0..5];
+    println!("hello is a slice of s and its value is {hello}");
 
+    let world = &s[6..11];
+    println!("world is a slice of s and its value is {world}");
 
 }
