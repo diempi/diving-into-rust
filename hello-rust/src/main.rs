@@ -24,4 +24,23 @@ fn main() {
     let world = &s[6..11];
     println!("world is a slice of s and its value is {world}");
 
+// Vectors
+
+    let mut v = vec![1,2,3];
+    println!("Vector v is a vector and its actual value is {:?}", v);
+
+    // push to the vector
+    v.push(4);
+    println!("Vector v is a vector and its new value is {:?}",v);
+
+    v.push(5);
+
+   println!("adding to the Vector v is a vector and its new value is {:?}",v);
+
+    // Remove from vector
+
+    v.pop();
+
+    println!("removing from the Vector v is a vector and its new value is {:?}",v);
+
 }
