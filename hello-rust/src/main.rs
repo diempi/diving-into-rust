@@ -51,6 +51,8 @@ fn main() {
     println!("the first value of the iterator is {}",iter.next().unwrap());
     println!("the first value of the iterator is {}",iter.next().unwrap());
     println!("the first value of the iterator is {}",iter.next().unwrap());
-
+    println!("the first value of the iterator is {}",iter.next().unwrap());
+    println!("the first value of the iterator is {}",iter.next().unwrap());
+    //println!("the first value of the iterator is {}",iter.next().unwrap());
 
 }
