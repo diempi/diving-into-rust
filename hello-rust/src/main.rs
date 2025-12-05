@@ -55,4 +55,13 @@ fn main() {
     println!("the first value of the iterator is {}",iter.next().unwrap());
     //println!("the first value of the iterator is {}",iter.next().unwrap());
 
+    // Functions
+
+    fn add(a: i32, b: i32) -> i32 {
+        a + b
+    }
+
+    let result = add(3,5);
+    println!("the result of the addition is {result}");
+
 }
