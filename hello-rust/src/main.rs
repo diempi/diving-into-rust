@@ -64,4 +64,16 @@ fn main() {
     let result = add(3,5);
     println!("the result of the addition is {result}");
 
+
+    // Conditional Flow
+
+    let number = 7;
+    if number < 5 {
+        println!("number is less than 5");
+    } else if number > 5 {
+        println!("number is greater than 5");
+    } else {
+        println!("number is equal to 5");
+    }
+
 }
