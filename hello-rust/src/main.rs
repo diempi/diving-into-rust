@@ -1,3 +1,7 @@
+fn froggy(s: String){
+    println!("{s} {s} {s} {s} {s} {s}");      
+}
+
 fn main() {
     println!("Hello, world!");
     println!("Hello, world! again");
@@ -96,4 +100,7 @@ fn main() {
     } else {
         println!("number is equal to 5");
     }
+
+    froggy("🐸".to_string());
+
 }
